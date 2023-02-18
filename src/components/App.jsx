@@ -27,7 +27,7 @@ export const App = () => {
       case 'neutral':
         setNeutral(state => state + 1);
         break;
-      case 'dab':
+      case 'bad':
         setBad(state => state + 1);
         break;
       default:
