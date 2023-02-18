@@ -1,0 +1,19 @@
+.btnContainer {
+  display: flex;
+  gap: 5px;
+}
+.optionBtn {
+  text-transform: capitalize;
+  font-size: 15px;
+  padding: 5px 10px;
+  background-color: rgb(42, 159, 255);
+  border: 2px solid rgb(42, 159, 255);
+  color: #ffffff;
+  border-radius: 3px;
+  cursor: pointer;
+}
+.optionBtn:hover,
+.optionBtn:focus {
+  background-color: #fff;
+  color: rgb(42, 159, 255);
+}
